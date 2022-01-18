@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Podkova:wght@500;800&display=swap');
+body{
+    font-family: 'Podkova', serif;
+    font-size: 22px;
+    line-height: 130%;
+    color: #006d40;
+}
+h1,h2,h3,h4,h5,h6,span,a{
+    font-weight: 800;
+}
+a{
+    font-size: 30px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.inline-block{
+    display: inline-block;
+}
+.header{
+    padding: 10px 0;
+    background-color:#86ac40;
+}
+.logo{
+    width: 30%;
+    vertical-align: middle;
+}
+.nav{
+    width: 70%;
+    margin-left: -10px;
+    vertical-align: middle;
+}
+.nav ul{
+    list-style: none;
+    text-align: right;
+}
+.nav li{
+    display: inline-block;
+    margin: 12px;
+}
+.nav li a{
+    color: white;
+    text-decoration: none;
+    vertical-align: middle;
+}
+/* header */
+.section{
+    padding:75px 0;
+    background-color:#ffffa5;
+}
+.sec1-text{
+    width: 50%;
+    vertical-align: middle;
+}
+.sec1-text p{
+    font-size: 22px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color:#006d40;
+    color:white;
+    text-decoration: none;  
+}
+.sec1-img{
+    width: 50%;
+    vertical-align: middle;
+    margin-left: -50px;
+}
+/* section1 */
+.section2{
+    padding: 75px 0;
+}
+.sec2-img{
+    width: 25%;
+    margin-left:-4.1px;
+}
+/* section2 */
+.section3{
+    padding: 5px;
+}
+.sec3-img{
+    width: 60%;
+    vertical-align: middle;
+}
+.sec3-content{
+    width: 40%;
+    vertical-align: middle;
+    margin-left: -10px;
+}
+.sec3-content h2{
+    margin-bottom: 12px;
+}
+.cta-btn{
+    text-align: center;
+    margin-top: 30px;
+}
+/* section3 */
+.section4{
+    padding:30px;
+}
+.sec4-box{
+    width: 180px;  
+    text-align: center;
+}
+.container2{
+    width: 600px;
+    margin: 0 auto;
+}
+/* section4 */
+.footer{
+    /* height:200px; */
+    background-color:#006d40;
+    padding: 30px 0;
+    
+}
+.footer1{
+    width: 20%;
+    vertical-align: middle;
+}
+.footer2{
+    width: 35%;
+    vertical-align: middle;
+}
+.footer3{
+    width: 20%;
+    vertical-align: middle;
+}
+.footer4{
+    width:20%;
+    vertical-align: middle;
+    text-decoration: none;
+    /* margin-left:40px; */
+}
+.footer4 ul{
+    list-style: none;
+    text-align: right;
+}
+.footer4 li a{
+    color: white;
+    text-decoration: none;
+    vertical-align: middle;
+    font-size: 22px;
+}
+.text-white{
+    color: white;
+}
